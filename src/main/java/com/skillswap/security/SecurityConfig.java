@@ -55,11 +55,11 @@ public class SecurityConfig {
         CorsConfiguration c = new CorsConfiguration();
 
         c.setAllowedOrigins(List.of(
-            "https://frontend-iota-gules-77.vercel.app",
-            "http://localhost:5173",
-            "http://127.0.0.1:5173"
-        ));
-
+    "https://frontend-r3e5aqsce-sruthiaddula2006-2511.vercel.app",
+    "https://frontend-iota-gules-77.vercel.app",
+    "http://localhost:5173",
+    "http://127.0.0.1:5173"
+));
         c.setAllowedMethods(List.of(
             "GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"
         ));
