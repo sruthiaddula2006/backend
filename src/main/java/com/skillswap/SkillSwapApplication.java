@@ -1,0 +1,5 @@
+package com.skillswap;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+@SpringBootApplication
+public class SkillSwapApplication { public static void main(String[] a){ SpringApplication.run(SkillSwapApplication.class,a); } }
